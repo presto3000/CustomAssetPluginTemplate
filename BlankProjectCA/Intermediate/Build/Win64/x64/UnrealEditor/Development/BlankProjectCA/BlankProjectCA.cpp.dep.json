@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\unrealprojects\\blankprojectca\\source\\blankprojectca\\blankprojectca.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\unrealprojects\\blankprojectca\\intermediate\\build\\win64\\x64\\blankprojectcaeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\unrealprojects\\blankprojectca\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\blankprojectca\\definitions.blankprojectca.h",
+            "c:\\unrealprojects\\blankprojectca\\source\\blankprojectca\\blankprojectca.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

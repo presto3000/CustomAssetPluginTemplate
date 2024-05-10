@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\UNREALPROJECTS\\BlankProjectCA\\Source\\BlankProjectCA\\BlankProjectCA.Build.cs",
+		"C:\\UNREALPROJECTS\\BlankProjectCA\\Source\\BlankProjectCA.Target.cs",
+		"C:\\UNREALPROJECTS\\BlankProjectCA\\Source\\BlankProjectCAEditor.Target.cs"
+	],
+	"EngineVersion": "5.4.1"
+}
