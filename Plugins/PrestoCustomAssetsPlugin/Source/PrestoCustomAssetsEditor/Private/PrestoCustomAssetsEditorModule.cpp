@@ -28,7 +28,7 @@ void FPrestoCustomAssetsEditorModule::ShutdownModule()
 
 	if (FPropertyEditorModule* PropertyModule = FModuleManager::GetModulePtr<FPropertyEditorModule>("PropertyEditor"))
 	{
-		PropertyModule->UnregisterCustomClassLayout("CustomAdvancedAsset");
+		PropertyModule->UnregisterCustomClassLayout("CustomAsset1");
 	}
 }
 
