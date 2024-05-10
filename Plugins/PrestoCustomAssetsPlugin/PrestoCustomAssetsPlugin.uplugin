@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "PrestoCustomAssetsPlugin",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "presto3000",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "PrestoCustomAssetsRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "PrestoCustomAssetsEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
