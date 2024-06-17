@@ -14,6 +14,7 @@ public:
 	virtual void StartupModule() override;
 	virtual void ShutdownModule() override;
 	static EAssetTypeCategories::Type GetAssetCategory() { return PrestoCustomAssetCategory; }
+	void RegisterMenuExtensions();
 protected:
 	static EAssetTypeCategories::Type PrestoCustomAssetCategory;
 

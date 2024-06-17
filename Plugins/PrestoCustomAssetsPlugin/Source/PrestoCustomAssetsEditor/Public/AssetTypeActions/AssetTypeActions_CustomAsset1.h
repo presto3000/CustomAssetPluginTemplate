@@ -17,5 +17,5 @@ public:
 	UClass* GetSupportedClass() const override;
 	uint32 GetCategories() override;
 	FColor GetTypeColor() const override;
-
+	void OpenAssetEditor(const TArray<UObject*>& InObjects, TSharedPtr<IToolkitHost> EditWithinLevelEditor = TSharedPtr<IToolkitHost>()) override;
 };

@@ -28,3 +28,9 @@ FColor FAssetTypeActions_CustomAsset1::GetTypeColor() const
 {
 	return FColor::Black;
 }
+
+void FAssetTypeActions_CustomAsset1::OpenAssetEditor(const TArray<UObject*>& InObjects,
+	TSharedPtr<IToolkitHost> EditWithinLevelEditor)
+{
+	FAssetTypeActions_Base::OpenAssetEditor(InObjects, EditWithinLevelEditor);
+}
